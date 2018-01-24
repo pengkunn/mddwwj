@@ -100,7 +100,7 @@
 <span class="token punctuation">}</span>
 </code></pre>
 <h3 id="获取用户抓取娃娃排行">1.8.获取用户抓取娃娃排行</h3>
-<p>URL  : users/getUserRank</p>
+<p>URL  : users/tserRank</p>
 <p>输入</p>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span><span class="token punctuation">}</span>  
 </code></pre>
@@ -1297,5 +1297,5 @@
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjE4NDMzNF19
+eyJoaXN0b3J5IjpbMTM1MDk3NTg5N119
 -->
