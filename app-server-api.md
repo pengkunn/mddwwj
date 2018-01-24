@@ -459,12 +459,32 @@
 ```json
 {
     "errcode": 0,
-    "total_reward_conis": 360,
-    "use_count": 5
+    "bulletins": [
+        {
+            "id": 1,
+            "title": "1234",
+            "content": "content",
+            "startTime": "2018-01-22T12:00:00.000Z",
+            "endTime": "2018-01-29T12:00:00.000Z",
+            "enable": 1,
+            "createTime": "2018-01-21T16:09:17.000Z",
+            "updateTime": "2018-01-22T02:59:56.000Z"
+        },
+        {
+            "id": 2,
+            "title": "1234",
+            "content": "content",
+            "startTime": "2018-01-22T12:00:00.000Z",
+            "endTime": "2018-01-29T12:00:00.000Z",
+            "enable": 1,
+            "createTime": "2018-01-22T02:48:55.000Z",
+            "updateTime": "2018-01-22T02:48:55.000Z"
+        }
+    ]
 }
 ```
-###  1.21. 获取我的邀请码信息
- URL  : users/getInvitationCodeUsedInfo
+###  1.21. 获取每日登录奖励配置
+ URL  : users/getLoginRewards
  
  输入  
 ```json 
@@ -474,11 +494,75 @@
 ```json
 {
     "errcode": 0,
-    "total_reward_conis": 360,
-    "use_count": 5
+    "loginRewards": [
+        {
+            "id": 1,
+            "type": 0,
+            "value": 10,
+            "index": 0,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "value": 10,
+            "index": 1,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 3,
+            "type": 0,
+            "value": 20,
+            "index": 2,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "value": 20,
+            "index": 3,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 5,
+            "type": 0,
+            "value": 30,
+            "index": 4,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 6,
+            "type": 1,
+            "value": 30,
+            "index": 5,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 7,
+            "type": 0,
+            "value": 40,
+            "index": 6,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        }
+    ]
 }
 ```
-  ###  1.22. 获取我的邀请码信息
+
+  ###  1.22. 领取每日登录奖励
  URL  : users/getInvitationCodeUsedInfo
  
  输入  
@@ -1506,5 +1590,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzMyOTM0Nl19
+eyJoaXN0b3J5IjpbLTEzNjAxMTQxNzRdfQ==
 -->
