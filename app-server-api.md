@@ -563,7 +563,7 @@
 ```
 
   ###  1.22. 领取每日登录奖励
- URL  : users/getInvitationCodeUsedInfo
+ URL  : users/receiveLoginReward
  
  输入  
 ```json 
@@ -573,8 +573,6 @@
 ```json
 {
     "errcode": 0,
-    "total_reward_conis": 360,
-    "use_count": 5
 }
 ```
 ---
@@ -1527,7 +1525,7 @@ URL  : prizes/getExpressInfoByInvoiceId
 
 ---
 
-## 5.主界面广告
+## 5.其他
 ###  5.1.获取所有滚屏广告
  URL  : posters/getAllPosters    
 
@@ -1589,6 +1587,25 @@ URL  : prizes/getExpressInfoByInvoiceId
     ]
 }
 ```
+###  5.2.获取版本信息
+ URL  : autoUpdate/getVersionInfo
+
+ 输入  
+```json 
+{
+	"QdCode":"wancms"
+}
+```
+ 输出  
+```json 
+{
+    "errcode": 0,
+    "versionInfo": {
+        "versionCode": 1,
+        "downloadUrl": "http://cdn.piupiuwan.com/data/package/android/wxfxwwj/mddwwj_wxfxwwj_1.apk"
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAxMTQxNzRdfQ==
+eyJoaXN0b3J5IjpbLTY0NzM3MDkyXX0=
 -->
