@@ -447,7 +447,41 @@
     "use_count": 5
 }
 ```
-
+###  1.19. 获取公告
+ URL  : users/getBulletins
+ 
+ 输入  
+```json 
+{}
+```
+ 输出  
+```json
+{
+    "errcode": 0,
+    "bulletins": [
+        {
+            "id": 1,
+            "title": "1234",
+            "content": "content",
+            "startTime": "2018-01-22T12:00:00.000Z",
+            "endTime": "2018-01-29T12:00:00.000Z",
+            "enable": 1,
+            "createTime": "2018-01-21T16:09:17.000Z",
+            "updateTime": "2018-01-22T02:59:56.000Z"
+        },
+        {
+            "id": 2,
+            "title": "1234",
+            "content": "content",
+            "startTime": "2018-01-22T12:00:00.000Z",
+            "endTime": "2018-01-29T12:00:00.000Z",
+            "enable": 1,
+            "createTime": "2018-01-22T02:48:55.000Z",
+            "updateTime": "2018-01-22T02:48:55.000Z"
+        }
+    ]
+}
+```
   
 ---
 
@@ -1462,5 +1496,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzY0NDIwMV19
+eyJoaXN0b3J5IjpbLTEwOTE2NDIwMjhdfQ==
 -->
