@@ -448,7 +448,7 @@
 }
 ```
 
-###  1.20. 获取我的邀请码信息
+###  1.20. 获取公告
  URL  : users/getBulletins
  
  输入  
@@ -1506,5 +1506,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzU2MzI5XX0=
+eyJoaXN0b3J5IjpbLTg0MzMyOTM0Nl19
 -->
