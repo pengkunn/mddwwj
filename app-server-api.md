@@ -560,8 +560,8 @@
     ]
 }
 ```
-  ###  1.21. 获取每日登录奖励信息
- URL  : users/getLoginRewards
+  ###  1.22. 领取每日登录奖励
+ URL  : users/receiveLoginReward
  
  输入  
 ```json 
@@ -570,72 +570,7 @@
  输出  
 ```json
 {
-    "errcode": 0,
-    "loginRewards": [
-        {
-            "id": 1,
-            "type": 0,
-            "value": 10,
-            "index": 0,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 2,
-            "type": 1,
-            "value": 10,
-            "index": 1,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 3,
-            "type": 0,
-            "value": 20,
-            "index": 2,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 4,
-            "type": 1,
-            "value": 20,
-            "index": 3,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 5,
-            "type": 0,
-            "value": 30,
-            "index": 4,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 6,
-            "type": 1,
-            "value": 30,
-            "index": 5,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        },
-        {
-            "id": 7,
-            "type": 0,
-            "value": 40,
-            "index": 6,
-            "imgUrl": " ",
-            "createTime": "2018-01-24T16:21:56.000Z",
-            "updateTime": "2018-01-24T16:21:57.000Z"
-        }
-    ]
+    "errcode": 0
 }
 ```
 ---
@@ -1651,5 +1586,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODE3NjU3Ml19
+eyJoaXN0b3J5IjpbLTMyNjg3MTY5XX0=
 -->
