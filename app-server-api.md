@@ -447,7 +447,7 @@
     "use_count": 5
 }
 ```
-###  1.19. 获取公告
+###  1.20. 获取公告
  URL  : users/getBulletins
  
  输入  
@@ -478,6 +478,84 @@
             "enable": 1,
             "createTime": "2018-01-22T02:48:55.000Z",
             "updateTime": "2018-01-22T02:48:55.000Z"
+        }
+    ]
+}
+```
+###  1.21. 获取每日登录奖励信息
+ URL  : users/getLoginRewards
+ 
+ 输入  
+```json 
+{}
+```
+ 输出  
+```json
+{
+    "errcode": 0,
+    "loginRewards": [
+        {
+            "id": 1,
+            "type": 0,
+            "value": 10,
+            "index": 0,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "value": 10,
+            "index": 1,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 3,
+            "type": 0,
+            "value": 20,
+            "index": 2,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "value": 20,
+            "index": 3,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 5,
+            "type": 0,
+            "value": 30,
+            "index": 4,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 6,
+            "type": 1,
+            "value": 30,
+            "index": 5,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
+        },
+        {
+            "id": 7,
+            "type": 0,
+            "value": 40,
+            "index": 6,
+            "imgUrl": " ",
+            "createTime": "2018-01-24T16:21:56.000Z",
+            "updateTime": "2018-01-24T16:21:57.000Z"
         }
     ]
 }
@@ -1496,5 +1574,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE2NDIwMjhdfQ==
+eyJoaXN0b3J5IjpbLTExOTk5Njk0MF19
 -->
