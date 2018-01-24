@@ -1536,7 +1536,6 @@ URL  : prizes/getExpressInfoByInvoiceId
  输出  
 ```json 
 {
-    {
     "errcode": 0,
     "posters": [
         {
@@ -1607,5 +1606,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzM3MDkyXX0=
+eyJoaXN0b3J5IjpbMTgxMDU3MTMzNV19
 -->
