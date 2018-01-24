@@ -448,7 +448,51 @@
 }
 ```
 
-  
+###  1.20. 获取我的邀请码信息
+ URL  : users/getBulletins
+ 
+ 输入  
+```json 
+{}
+```
+ 输出  
+```json
+{
+    "errcode": 0,
+    "total_reward_conis": 360,
+    "use_count": 5
+}
+```
+###  1.21. 获取我的邀请码信息
+ URL  : users/getInvitationCodeUsedInfo
+ 
+ 输入  
+```json 
+{}
+```
+ 输出  
+```json
+{
+    "errcode": 0,
+    "total_reward_conis": 360,
+    "use_count": 5
+}
+```
+  ###  1.22. 获取我的邀请码信息
+ URL  : users/getInvitationCodeUsedInfo
+ 
+ 输入  
+```json 
+{}
+```
+ 输出  
+```json
+{
+    "errcode": 0,
+    "total_reward_conis": 360,
+    "use_count": 5
+}
+```
 ---
 
 ## 2.娃娃机相关
@@ -1462,5 +1506,5 @@ URL  : prizes/getExpressInfoByInvoiceId
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTc4OTAyOV19
+eyJoaXN0b3J5IjpbLTY0MzU2MzI5XX0=
 -->
